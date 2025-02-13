@@ -1,2 +1,2 @@
 # Metodología de la programación
-Universidad Politecnica de Aguascalientes y eso
+ Universidad Politecnica de Aguascalientes
