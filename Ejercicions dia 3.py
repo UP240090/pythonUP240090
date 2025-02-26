@@ -60,3 +60,18 @@ print("Distancia euclidiana:", distancia_euclidiana)
 print(" ")
 # Ejercicio 7
 print("Ejercicio 7")
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+m2 = (y2 - y1) / (x2 - x1)
+print("Pendiente entre los puntos (2, 2) y (6, 10):", m2)
+
+print(" ")
+# Ejercicio 8
+print("Ejercicio 8")
+#Declarar los valores de x a probar
+x_valores = [-3, -2, -1, 0, 1, 2, 3]
+for x in x_valores:
+    y = x**2 + 6*x + 9
+    print(f"Para x = {x}, y = {y}")
+#(for x in x_valores:) significa que para resolver y con los valores de x_valores
+#Resuelva sustituyendo los valores que le diste obteniendo los valores de y 
