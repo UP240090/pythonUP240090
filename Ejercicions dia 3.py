@@ -159,3 +159,21 @@ horas = float(input("Ingresa las horas que chambeaste: "))
 tph = float(input("Cuanto ganas por hora: "))
 pago_semanal = horas * tph
 print("Tu pago semanal es: ","$",pago_semanal, "pechereques")
+
+print(" ")
+# Ejercicio 19
+print("Ejercicio 19")
+years_vividos = int(input("Ingresa la cantidad de años vividos: "))
+segundos = years_vividos * 365 * 24 * 60 * 60
+print("La cantidad de segundos que haz vivido son: ",segundos)
+
+print(" ")
+# Ejercicio 20
+print("Ejercicio 20")
+print(1, 1, 1, 1, 1,)
+print(2, 1, 2, 4, 8)
+print(3, 1, 3, 9, 27)
+print(4, 1, 4, 16, 64)
+print(5, 1, 5, 25, 125)
+
+#Dice que son 20 ejercicios por que los primeros 4 los hice como uno solo profe :)
