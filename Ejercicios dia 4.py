@@ -32,3 +32,9 @@ print(" ")
 print("Ejercicio 6")
 cad_may = company.upper()
 print("En mayusaculas seria: ", cad_may)
+
+print(" ")
+# Ejercicio 7
+print("Ejercicio 7")
+cad_min = company.lower()
+print("En minusculas seria: ", cad_min)
