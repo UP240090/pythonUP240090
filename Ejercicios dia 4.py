@@ -65,34 +65,52 @@ print("La posision de la palabra Conding en la oracion es: ", company.index("Cod
 print(" ")
 # Ejercicio 11
 print("Ejercicio 11")
-nueva_cadena = company.replace('')
+nueva_cadena = company.replace('Coding', 'Python')
+print(nueva_cadena)
+
 print(" ")
 # Ejercicio 12
 print("Ejercicio 12")
+frase = "Python for everyone"
+frase_modi = frase.replace("Everyone", "All")
+print(frase_modi)
 
 print(" ")
 # Ejercicio 13
 print("Ejercicio 13")
+palabras = company.split()
+print(palabras)
 
 print(" ")
 # Ejercicio 14
 print("Ejercicio 14")
+empresas_tec = "Facebook,  Google, Microsoft, Apple, IBM, Oracle, Amazon"
+lista_de_empresas = empresas_tec.split(', ')
+print(lista_de_empresas)
 
 print(" ")
 # Ejercicio 15
 print("Ejercicio 15")
+primer_caracter = company[0]
+print(primer_caracter)
 
 print(" ")
 # Ejercicio 16
 print("Ejercicio 16")
+ultimo_caracter = company[-1]
+print(ultimo_caracter)
 
 print(" ")
 # Ejercicio 17
 print("Ejercicio 17")
+caracter_en_10 = company[11]
+print(caracter_en_10)
 
 print(" ")
 # Ejercicio 18
 print("Ejercicio 18")
+acronimo = ''.join([palabra[0] for palabra in frase.split()]).upper()
+print(acronimo)
 
 print(" ")
 # Ejercicio 19
