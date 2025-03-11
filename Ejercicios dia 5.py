@@ -99,52 +99,87 @@ print(existe_empresa)
 print(" ")
 # Ejercicio 16
 print("Ejercicio 16")
+empresas_tecnologia.sort()
+print("Lista ordenada:", empresas_tecnologia)
 
 print(" ")
 # Ejercicio 17
 print("Ejercicio 17")
+empresas_tecnologia.reverse()
+print("Lista en orden descendente:", empresas_tecnologia)
 
 print(" ")
 # Ejercicio 18
 print("Ejercicio 18")
+primeras_tres = empresas_tecnologia[:3]
+print("Primeras tres empresas: ", primeras_tres)
 
 print(" ")
 # Ejercicio 19
 print("Ejercicio 19")
+ultimas_tres = empresas_tecnologia[-3:]
+print("Las ultimas tres empresas son: ",ultimas_tres)
 
 print(" ")
 # Ejercicio 20
 print("Ejercicio 20")
+indice_medio = len(empresas_tecnologia) // 2
+empresas_medio = empresas_tecnologia[indice_medio - 1:indice_medio + 1] if len(empresas_tecnologia) % 2 == 0 else [empresas_tecnologia[indice_medio]]
+print("Empresa del medio:", empresas_medio)
 
 print(" ")
 # Ejercicio 21
 print("Ejercicio 21")
+del empresas_tecnologia[0]
+print("Lista despues de eliminar la primera empresa: ",empresas_tecnologia)
 
 print(" ")
 # Ejercicio 22
 print("Ejercicio 22")
+indice_medio = len(empresas_tecnologia) // 2
+if len(empresas_tecnologia) % 2 != 0:  #Longitud impar
+    del empresas_tecnologia[indice_medio]
+else:  #Longitud par
+    del empresas_tecnologia[indice_medio - 1:indice_medio + 1]
+print("Lista después de eliminar las empresas del medio:", empresas_tecnologia)
 
 print(" ")
 # Ejercicio 23
 print("Ejercicio 23")
+empresas_tecnologia.pop()
+print("La lista desues de eliminar la ultima empresa: ",empresas_tecnologia)
 
 print(" ")
 # Ejercicio 24
 print("Ejercicio 24")
+empresas_tecnologia.clear()
+print("Lista despues de eliminar todas las empresas: ",empresas_tecnologia)
 
 print(" ")
 # Ejercicio 25
 print("Ejercicio 25")
+del empresas_tecnologia
 
 print(" ")
 # Ejercicio 26
 print("Ejercicio 26")
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']  #Tecnologías frontend
+back_end = ['Node', 'Express', 'MongoDB']  #Tecnologías backend
+
+pila_completa = front_end + back_end  #Combinando las listas
+print("Lista combinada:", pila_completa) #Usando el "+" combina las dos listas
 
 print(" ")
 # Ejercicio 27
 print("Ejercicio 27")
-
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node', 'Express', 'MongoDB']
+pila_completa = front_end + back_end
 print(" ")
+indice_redux = pila_completa.index('Redux')
+pila_completa.insert(indice_redux, 'Python')
+pila_completa.insert(indice)
+
 # Ejercicio 28
 print("Ejercicio 28")
 
