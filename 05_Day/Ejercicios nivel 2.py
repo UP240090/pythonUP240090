@@ -35,5 +35,9 @@ print(f"La diferencia minima con el promedio es: {min_dife}")
 print(f"La diferencia maxima con el promedio es: {max_dife}")
 
 print(" ")
-# Ejercicio 29
-print("Ejercicio 29")
+# Ejercicio 2
+print("Ejercicio 2")
+variable = "En mi casita lo termino"
+print(variable)
+
+
