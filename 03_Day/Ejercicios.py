@@ -177,3 +177,6 @@ print(4, 1, 4, 16, 64)
 print(5, 1, 5, 25, 125)
 
 #Dice que son 20 ejercicios por que los primeros 4 los hice como uno solo profe :)
+
+#REVISADO
+print("Revisado")

@@ -240,3 +240,5 @@ print(f'{a} % {b} = {a % b}')
 print(f'{a} // {b} = {a // b}')
 print(f'{a} ** {b} = {a ** b}')
 
+#REVISADO
+print("Revisado")
