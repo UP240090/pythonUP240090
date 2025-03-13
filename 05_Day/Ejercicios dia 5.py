@@ -215,7 +215,8 @@ print(f"Rango de edades: {age_rango}")
 min_dife = abs(min_ages - promedio)
 max_dife = abs(max_ages - promedio)
 print(f"La diferencia minima con el promedio es: {min_dife}")
-print()
+print(f"La diferencia maxima con el promedio es: {max_dife}")
+
 print(" ")
 # Ejercicio 29
 print("Ejercicio 29")
