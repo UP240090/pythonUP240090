@@ -179,3 +179,5 @@ indice_redux = pila_completa.index('Redux') + 1
 pila_completa.insert(indice_redux, 'Python')
 pila_completa.insert(indice_redux + 1,'SQL')
 print(pila_completa)
+#REVISADO
+print("Revisado")
