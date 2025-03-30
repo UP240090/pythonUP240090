@@ -2674,6 +2674,8 @@ for pais in paises_dat:
     idiomas_unicos.update(pais['languages'])
 print("Numero total de idiomas sin reperir: ", len(idiomas_unicos))
 
+print(" ")
+
 # 2
 idiomas = []
 
@@ -2700,3 +2702,11 @@ for idioma, frecuencia in mas_hablados:
 # "reverse=True" esto le indica a "sorted()" que ordene en orden descendente (de mayor a menor frecuencia)
 # "[:10]" con esto seleccionamos los 10 primeros elementos de la lita ordenada que son los idiomas con mayor frcuencia
 
+print(" ")
+
+# 3
+paises_mas_poblados = sorted(paises_dat, key = lambda x: x['population'], reverse = True)[:10]
+for pais in paises_mas_poblados:
+    print(f"{pais['name']}: {pais['population']} habitantes")
+
+# Usamos la misma logica que el anterior para este codigo
