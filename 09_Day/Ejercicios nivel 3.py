@@ -45,3 +45,5 @@ if 'habilidades' in persona:
 if persona.get('casado') and persona.get('pais') == 'Finlandia':
     print(f"{persona['nombre']}{persona['apellido']} vive en Finlandia y esta casado")
 # Utilizamos "get" para acceder a una llave ("keys") del diccionario 
+
+print("Revisado")

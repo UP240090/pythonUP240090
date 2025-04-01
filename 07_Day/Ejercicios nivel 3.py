@@ -25,3 +25,5 @@ print("Ejercicio 3")
 frase = "I am teacher and I love to inspire and teach people"
 palabras_unicas = set(frase.split())
 print("Numero de palabras unicas: ", len(palabras_unicas))
+
+print("Revisado")

@@ -59,3 +59,5 @@ print(" ")
 print("Ejercicio 8")
 for numero in range(1, 101, 2):      # Usamos ese rango para iterar de dos en dos comenzando de uno para obtener los impares
     print(numero) 
+
+print("Revisado")

@@ -28,3 +28,6 @@ print(" ")
 print("Ejercicio 5")
 # "remove" genra un error si el elemento no esta en la lista
 # "discard" no genera ningun error si el elemnto no esta en la lista
+
+
+print("Revisado")
