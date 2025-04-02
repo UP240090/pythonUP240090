@@ -19,3 +19,5 @@ for numero in range(101):
 
 print("La suma total de numeros pares es: ")
 print("La suma total de numeros impares es: ")
+
+print("Revisado")

@@ -38,3 +38,6 @@ familia = mis_hermanos + padres
 print("Mi familia es: ", familia)
 
 #La tupla se genera al poner una coma (,) asi se identifica que es ina tupla
+
+
+print("Revisado")

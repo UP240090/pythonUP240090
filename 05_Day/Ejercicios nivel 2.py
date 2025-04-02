@@ -66,3 +66,5 @@ print("Segundo pais: ",segundo)
 print("Tercer pais: ",tercero)
 print("Paises escandiavos: ",paises_escandinavos)
 #"Escandinavos" se refiere al resto
+
+print("Revisado")

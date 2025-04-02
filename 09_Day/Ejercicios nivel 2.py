@@ -45,3 +45,5 @@ if fruta in frutas:
 else:
     frutas.append(fruta)
     print("La lista actualizada es esta: ", frutas)
+
+print("Revisado")

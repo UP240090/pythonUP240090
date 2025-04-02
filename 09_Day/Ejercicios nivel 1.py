@@ -35,3 +35,5 @@ elif num1 < num2:
     print(f"El segundo numero {num2} es mas grande que el primer numero {num1}")
 else:
     print(f"Los dos numeros {num1} y {num2} son iguales")
+
+print("Revisado")
