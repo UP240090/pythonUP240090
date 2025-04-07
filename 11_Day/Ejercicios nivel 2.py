@@ -31,3 +31,5 @@ def esta_vacio(lista):
         print("No está vacío")
     else: 
         print("Está vacío")
+
+print("revisado")

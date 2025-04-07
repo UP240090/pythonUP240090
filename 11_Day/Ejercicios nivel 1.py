@@ -121,3 +121,5 @@ print("Ejercicio 15")
 def sum_par(n):
     return sum(i for i in range(n + 1) if i % 2 == 0)
 print(sum_par(5))
+
+print("revisado")

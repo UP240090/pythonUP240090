@@ -47,3 +47,5 @@ print(pendiente(2, 3, 5, 7))
 print(interseccion(2, 3, 1.33))  
 
 #  En otro dia ya habia usado la funciond de "lambda"
+
+print("revisado")

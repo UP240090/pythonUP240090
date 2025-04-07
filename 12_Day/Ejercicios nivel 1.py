@@ -24,3 +24,5 @@ def rgb_color_gen():
     r, g, b = random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)
     return f"rgb({r},{g},{b})"
 print(rgb_color_gen())
+
+print("revisado")

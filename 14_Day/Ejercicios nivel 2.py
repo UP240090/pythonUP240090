@@ -103,3 +103,5 @@ print("Ejercicio 15")
 def get_last_ten_countries(lst):
     return lst[-10:]
 print(get_last_ten_countries(paises))
+
+print("revisado")

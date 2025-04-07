@@ -2669,3 +2669,5 @@ def idiomas_mas_hablados(datos, cantidad=10):
     conteo = Counter(idiomas)    # Contamos la frecuencia de cada idioma
     return conteo.most_common(cantidad)      # Seleccionamos los idiomas más hablados
 print(idiomas_mas_hablados(paises_dat, 10))     # Ejecutamos la función con los datos y mostramos los 10 más hablados
+
+print("revisado")

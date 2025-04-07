@@ -28,3 +28,5 @@ def generate_colors(tipo, cantidad):
 
 print(generate_colors('hexa', 3)) 
 print(generate_colors('rgb', 3))  
+
+print("revisado")
